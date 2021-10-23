@@ -1,0 +1,54 @@
+
+:root {
+    --widgets-bg-color:#37a683 ;
+    --other-bg-color:#51ed92;
+}
+.s-block{
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1000px;
+    margin:0 auto;
+    padding: 20px;
+}
+
+.header_widget{
+    height: 300px;
+    background-color: var(--other-bg-color);
+}
+.main_widgets{
+    height: 350px;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+.firt_widget{
+    height: 350px;
+    flex-grow: 1;
+    background-color: var(--widgets-bg-color);
+}
+.second_widget{
+    height: 350px;
+    flex-grow: 1;
+    background-color: var(--widgets-bg-color);
+}
+.third_widget{
+    height: 350px;
+    flex-grow: 1;
+    background-color: var(--widgets-bg-color);
+}
+
+.contact_widget{
+    height: 500px;
+    background-color: var(--other-bg-color);
+    margin-top: 20px;
+}
