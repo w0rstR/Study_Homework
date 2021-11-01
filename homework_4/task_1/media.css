@@ -1,0 +1,107 @@
+@media (max-width: 1200px) {
+    .products_list{
+        flex-direction: column;
+    }
+    .about_wrapper{
+        flex-direction: column;
+    }
+    .products_list{
+        align-items: center;
+    }
+    .products{
+        padding: 5px;
+    }
+    .main_header{
+
+    }
+}
+
+@media (max-width: 1025px) {
+
+    .desc_card_first_row{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .desc_card_second_row{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .description_banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .first_header{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 769px) {
+
+    .second_header_wrapper{
+        flex-direction: column;
+    }
+    .first_header_wrapper{
+        justify-content: center;
+    }
+}
+@media(max-width: 576px)  {
+    .products_item_img{
+        min-width: 120px;
+    }
+    .second_header_wrapper{
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+    }
+    .second_header_logo{
+        width: 100px;
+    }
+
+    .second_header_nav{
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first_header_link{
+        width: 20px;
+        height: 5px;
+    }
+    .first_header{
+        column-gap: 1px;
+    }
+    .main_header_button{
+        min-width: 60px;
+        font-size: 14px;
+    }
+    .about_card_item_description{
+        text-align: center;
+    }
+    .desc_card_item_img{
+        min-width:200px ;
+        min-height:100px ;
+    }
+    .desc_card_item_nav{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 5px;
+    }
+    .desc_card_item_text{
+        font-size: 14px;
+    }
+    .desc_card_item{
+        max-width:200px;
+    }
+    .desc_card_item_nav{
+        max-width: 200px;
+    }
+    .footer_items{
+        flex-direction: column;
+        row-gap: 7px;
+    }
+}

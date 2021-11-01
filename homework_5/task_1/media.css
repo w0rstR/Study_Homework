@@ -1,0 +1,148 @@
+@media (max-width: 1200px) {
+    .first_main_block_wrapper{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .right_block_images_wrapper{
+        margin-top: 200px;
+        margin-left: 650px;
+    }
+    .main_block_cards{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+    .first_main_block{
+        margin-top: 1020px;
+    }
+    .main_block{
+        margin-top: 380px;
+    }
+    .first_main_block{
+        margin-top: 1100px;
+    }
+    .main_block{
+        margin-top: 150px;
+    }
+
+}
+
+@media (max-width: 1025px) {
+
+    .nav_btn_mobile{
+        display: flex;
+    }
+    .header_block_menu{
+        display: none;
+    }
+    .first_main_block{
+        margin-top: 1100px;
+    }
+
+}
+@media (max-height: 850px) {
+
+    .first_main_block{
+        margin-top: 1100px;
+    }
+
+
+}
+
+@media (max-width: 769px) {
+    .right_block_images{
+        display: flex;
+        justify-content: center;
+    }
+
+    .first_image_item img{
+        position: absolute;
+        width: 125.36px;
+        height: 155px;
+        left: 130px;
+        top:-20px;
+    }
+    .second_image_item img{
+        width: 137.2px;
+        height: 221.97px;
+    }
+    .third_image_item img{
+        width: 114.06px;
+        height: 84.66px;
+        left: 100px;
+    }
+    .fourth_image_item img{
+        width: 137.2px;
+        height: 205.97px;
+        position: absolute;
+        top: -95px;
+
+    }
+    .left_block_about_num{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        row-gap: 25px;
+    }
+    .first img{
+        margin-left: 3px;
+    }
+    .first{
+        margin-left: 25px;
+    }
+    .second{
+        margin-left: 25px;
+    }
+    .third{
+        margin-right: 25px;
+    }
+    .num_text{
+        text-align: center;
+    }
+
+}
+@media(max-width: 576px)  {
+    .header_main_title h2{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .header_main_title h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header_main_title p::before, .header_main_title p::after{
+        display: none;
+    }
+    .left_block_about_text{
+        width: 300px;
+    }
+}
+@media(max-width: 400px)  {
+
+
+    .header_block_logo img{
+        width: 50px;
+    }
+    .wrapper{
+        max-width: 340px;
+        padding: 0 10px;
+    }
+    .header_block_wrapper{
+        padding-top: 20px;
+    }
+
+    .main_block_cards{
+        margin-top: -150px;
+    }
+    .first_main_block{
+        margin-top: 900px;
+    }
+    .main_block{
+        margin-top: 400px;
+    }
+
+
+
+}

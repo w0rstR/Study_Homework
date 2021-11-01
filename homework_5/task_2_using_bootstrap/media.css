@@ -1,0 +1,29 @@
+@media (max-width: 992px) {
+    .header_block_menu{
+        display: none;
+    }
+    .nav_btn_mobile{
+        display: flex;
+    }
+
+    .header_block_logo img{
+        width: 50px;
+    }
+    .header_block_wrapper{
+        padding-top: 20px;
+    }
+
+    .hedaer_main_block_title h2{
+        font-size: 30px;
+    }
+    .hedaer_main_block_title h1{
+        font-size: 40px;
+    }
+    .hedaer_main_block_title p:after, .hedaer_main_block_title p:before{
+        display: none;
+    }
+    .hedaer_main_block_title{
+        text-align: center;
+    }
+
+}

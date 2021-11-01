@@ -1,0 +1,79 @@
+@media screen and (max-width: 400px) {
+    .first_screen-left h1{
+        font-size: 30px;
+        line-height: 32px ;
+    }
+    .second_screen_block_left h2{
+        text-align: center;
+    }
+    .second_creen_block_right img{
+        width: 150%;
+        margin-left: -170px;
+        height: 400px;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    .first_screen_left img{
+        width: 100%;
+    }
+    .first_screen_right_third .wrapper{
+
+    }
+    .second_screen_block_left h2{
+        padding-left: 15px;
+    }
+    .second_screen_block_left p{
+        padding-left: 15px;
+    }
+    .second_creen_block_right img{
+        height: 50%;
+    }
+    .first_row{
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    }
+    .second_row{
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    }
+    .third_row{
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    }
+    .fourth_wrapper{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .six_creen_title{
+        font-size: 20px;
+    }
+    .six_screen_first_row{
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    }
+    .seven_wrapper{
+        flex-direction: column-reverse;
+    }
+    .seven_screen_block_logo{
+        margin-bottom: 50px;
+    }
+
+
+
+}
+@media screen and (max-width: 768px) {
+    .nav_img{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .seven_screen_main_block{
+        flex-direction: column;
+    }
+    .seven_screen_btn{
+        max-width: 800px;
+    }
+    .footer_menu{
+        flex-direction: column;
+    }
+}
