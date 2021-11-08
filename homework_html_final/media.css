@@ -1,0 +1,113 @@
+@media screen and (max-width: 768px) {
+    .header_nav_menu_item{
+        display: none;
+    }
+    .main_header_second_items_wrapper{
+        flex-direction: column;
+        align-items: normal;
+    }
+    .main_header_third_items{
+        border: 1px solid red;
+    }
+    .main_header_items{
+        column-gap: 30px;
+    }
+    .main_header_third_wrapper{
+        flex-direction: column;
+
+    }
+    .main_header_fourth_items{
+        padding: 3px 3px 3px 3px;
+        width: 250px;
+    }
+    .btn_catalog_media{
+        display: block;
+    }
+    .second_header_section_btn{
+        display: none;
+    }
+    .second_header_section{
+        column-gap: 10px;
+    }
+    .input-group{
+        width: 290px;
+    }
+    .second_header_section_nav_menu{
+        column-gap: 30px;
+    }
+    .second_header_section_nav_menu_item{
+        flex-direction: column;
+        align-items: center;
+    }
+    .second_header_section_nav_menu{
+        margin-left: 55px;
+    }
+    .header_nav_menu_item_media{
+        display: flex;
+        align-items: center;
+
+    }
+    .corousel_item_wrapper > img {
+
+    }
+
+    .first_slider{
+        width: 500px;
+    }
+    .corousel_item_wrapper > img {
+        height: 100px;
+        width: 150px;
+    }
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+    .about_block{
+        width: 100px;
+    }
+    .about_block_title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .about_block_sub_title{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .corousel_item_wrapper img{
+
+    }
+    .first_slider_wrapper{
+        width: 470px;
+    }
+    .d-block{
+        width: 470px;
+        height: 420px;
+    }
+    .corousel_item_wrapper > img{
+        width: 300px;
+        height: 220px;
+    }
+    .sell_cards_wrapper{
+        width: 260px;
+    }
+    .about_text p{
+        font-size: 14px;
+    }
+    .corousel_item_wrapper > img{
+        margin-left: 50px ;
+    }
+    .about_block_price{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .about_block_sub_title{
+        margin-top: 10px;
+    }
+
+
+}
+
