@@ -65,7 +65,6 @@ table {
 .main_header_second_items_wrapper{
     display: flex;
     align-items: center;
-    border: 1px solid red;
     column-gap: 50px;
 }
 .top_header_second_nav_menu{
@@ -176,9 +175,11 @@ table {
 }
 .second_header_section_nav_menu_item{
     display: flex;
+    align-items: center;
+    column-gap: 5px;
 }
 .nav_menu_item_about{
-    padding-left: 10px;
+
 }
 .first_slider_wrapper{
     width: 1070px;
@@ -201,8 +202,6 @@ table {
 }
 .corousel_item_wrapper{
     display: flex;
-
-    border: 1px solid red;
     column-gap: 1px;
 }
 .corousel_item_wrapper > img {
@@ -412,6 +411,8 @@ table {
 }
 .card{
     padding: 10px;
+    border: none
+;
 }
 .card_nav{
     display: flex;
@@ -467,15 +468,18 @@ table {
     color: #FFFFFF;
 }
 .card_group_wrapper{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+
 }
 .card_group{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .card{
-
+    width: 320px;
+}
+.card_img img{
+    width: 248px;
+    height: 211px;
 }
 .last_card{
     display: flex;
@@ -604,7 +608,7 @@ table {
 .footer_block{
     margin-top: 120px;
     background: #0C1A2A;
-    height: 408px;
+    height: 450px;
 }
 .footer_nav_menu_item{
     padding-top: 35px;
@@ -621,9 +625,9 @@ table {
     color: #FFFFFF;
     max-width: 280px;
 }
-.footer_nav_menu{
+.footer_nav_menu_items{
     display: flex;
-    column-gap: 120px;
+    column-gap: 80px;
 }
 .footer_card_text{
     font-family: Roboto;
@@ -634,7 +638,15 @@ table {
 
     color: #FFFFFF;
 }
+.footer_contact_form{
+
+}
+.input-group{
+    margin-top: 25px;
+}
 .footer_nav_menu{
+    display: flex;
+    justify-content: space-between;
 }
 .footer_contact{
     margin-top: 36px;
@@ -784,7 +796,6 @@ table {
     color: #FFFFFF;
 }
 .first_slider{
-    border: 1px solid red;
 
 }
 .d-block{
